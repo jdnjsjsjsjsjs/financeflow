@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — FinanceFlow</title>
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<nav class="navbar is-fixed-top is-white">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-weight-bold" href="index.html">
+        FinanceFlow
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="index.html">Главная</a>
+        <a class="navbar-item" href="faq.html">FAQ</a>
+        <a class="navbar-item is-active" href="contacts.html">Контакты</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="section" style="margin-top: 70px;">
+  <div class="container">
+    <h1 class="title has-text-centered">Свяжитесь с нами</h1>
+
+    <div class="columns">
+      <div class="column is-6">
+        <form>
+          <div class="field">
+            <label class="label">Имя</label>
+            <div class="control">
+              <input class="input" type="text" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Тема</label>
+            <div class="control">
+              <div class="select is-fullwidth">
+                <select required>
+                  <option>Вопрос</option>
+                  <option>Предложение</option>
+                  <option>Ошибка</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Сообщение</label>
+            <div class="control">
+              <textarea class="textarea" rows="5" required></textarea>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="checkbox">
+              <input type="checkbox" required>
+              Согласен на обработку персональных данных
+            </label>
+          </div>
+
+          <div class="field">
+            <button class="button is-primary" type="submit">
+              Отправить
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="column is-6">
+        <h2 class="title is-4">Контакты</h2>
+        <p><i class="fas fa-map-marker-alt"></i> Москва</p>
+        <p><i class="fas fa-envelope"></i> support@financeflow.ru</p>
+        <p><i class="fas fa-phone"></i> +7 (999) 000-00-00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact" class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>FinanceFlow</strong><br>
+      Email: support@financeflow.ru<br>
+    </p>
+    <p>
+      <a href="#"><i class="fab fa-telegram"></i></a>
+      &nbsp;
+      <a href="#"><i class="fab fa-vk"></i></a>
+      &nbsp;
+      <a href="#"><i class="fab fa-github"></i></a>
+    </p>
+    <p>© 2026 FinanceFlow</p>
+  </div>
+</footer>
+
+</body>
+</html>
